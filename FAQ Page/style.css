@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans");
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+body {
+  background: #ffffff;
+}
+
+.container {
+  margin: auto;
+  width: 90%;
+}
+
+.faqs-head {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.faqs-head h1 {
+  line-height: 16px;
+  font-weight: 600px;
+}
+
+.faqs-head p {
+  font-size: 8px;
+  line-height: 11px;
+  padding-bottom: 16px;
+}
+
+.faqs-stn {
+  background: #fde0ca;
+  border-radius: 8px;
+  padding: 32px 17.8px 15px 18px;
+}
+
+.faqs-stn h2,
+p {
+  padding-bottom: 15px;
+}
+
+.faqs-stn p {
+  font-size: 8px;
+}
+
+.faqs-stn p span {
+  font-size: 8px;
+  color: grey;
+}
+
+@media only screen and (min-width: 500px) {
+  .faqs-head {
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .container {
+    width: 800px;
+  }
+
+  .faqs-head h1 {
+    font-size: 30px;
+    line-height: 49.1px;
+    font-weight: 700px;
+    padding-bottom: 15px;
+  }
+
+  .faqs-head p {
+    font-size: 16px;
+    line-height: 24.55px;
+  }
+
+  .faqs-stn h2 {
+    font-size: 15px;
+  }
+
+  .faqs-stn p {
+    font-size: 10px;
+  }
+
+  .faqs-stn p span {
+    font-size: 10px;
+    color: grey;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .container {
+    width: 1200px;
+  }
+
+  .faqs-head h1 {
+    font-size: 36px;
+  }
+
+  .faqs-head p {
+    font-size: 20px;
+  }
+
+  .faqs-stn h2 {
+    font-size: 17px;
+  }
+
+  .faqs-stn p {
+    font-size: 12px;
+  }
+
+  .faqs-stn p span {
+    font-size: 12px;
+  }
+}

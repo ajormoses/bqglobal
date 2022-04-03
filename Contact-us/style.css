@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans");
+@import url("https://fonts.googleapis.com/css2?family=Roboto");
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+body {
+  background: #e5e5e5;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+/* contact form starts here  */
+.contact-form {
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 23px 17px 8px 17px;
+  margin-top: 10px;
+  height: 601px;
+}
+
+/* stn content design starts here  */
+.mid-content {
+  border-radius: 8px 8px 0 0;
+  background: #ffffff;
+  padding: 23px 17px 8px 17px;
+  margin-top: 30px;
+}
+
+.stn-content h1,
+h2,
+h3,
+h4,
+h5 {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 8px 0 8px 0;
+}
+
+.stn-content p {
+  font-size: 10px;
+  font-family: 300;
+  line-height: 14px;
+}
+
+.office {
+  width: 170px;
+}
+
+/* stn media starts here */
+.stn-media {
+  border-radius: 0 0 10px 10px;
+  background: #ffffff;
+  padding: 10px 17px 35px 17px;
+}
+
+.stn-media h6 {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 0px 0 8px 0;
+}
+
+.stn-media p {
+  font-size: 10px;
+  font-family: 300;
+  line-height: 14px;
+}
+
+.media-box {
+  background: #c4c4c4;
+  width: 16px;
+  height: 16px;
+}
+
+.fbcom,
+.instagram,
+.youtube,
+.twitter,
+.telegram {
+  display: flex;
+}
+
+.stn-media p {
+  padding-left: 10px;
+}
+
+.stn-socials {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.1rem;
+  padding-top: 15px;
+}
+
+/* stn media ends here */
+
+@media only screen and (min-width: 500px) {
+  .container {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .container {
+    width: 800px;
+  }
+
+  .contact-form {
+    width: 300px;
+    height: 520px;
+  }
+
+  .container-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .mid-content {
+    border-radius: 10px;
+    padding: 23px 17px 32px 35px;
+    margin-top: 10px;
+    width: 400px;
+  }
+
+  .stn-content h1 {
+    font-size: 30px;
+  }
+
+  .stn-content p {
+    font-size: 12px;
+  }
+
+  .stn-content h2,
+  h3,
+  h4,
+  h5 {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 12px 0 2px 0;
+  }
+
+  /* stn media starts here */
+  .stn-media {
+    border-radius: 0 0 10px 10px;
+    padding: 23px 17px 8px 35px;
+    width: 400px;
+    margin-top: 10px;
+    background: #f2f0f5;
+    padding-bottom: 35px;
+  }
+
+  .stn-media h6 {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .stn-media p {
+    font-size: 10px;
+    line-height: 16px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .media-box {
+    width: 30px;
+    height: 30px;
+  }
+
+  .fbcom,
+  .instagram,
+  .youtube,
+  .twitter,
+  .telegram {
+    display: flex;
+    align-items: center;
+  }
+
+  .youtube {
+    position: relative;
+    top: 50%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+
+  .contact-form {
+    width: 450px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .container {
+    width: 1250px;
+  }
+
+  .contact-form {
+    width: 755px;
+    height: 903px;
+    border-radius: 24px;
+  }
+
+  .container-content {
+    gap: 1.2rem;
+  }
+
+  .mid-content {
+    border-radius: 24px;
+    padding: 23px 17px 150px 35px;
+  }
+
+  .stn-content h1 {
+    font-size: 36px;
+  }
+
+  .stn-content p {
+    font-size: 18px;
+    line-height: 19px;
+    font-weight: 400;
+  }
+
+  .stn-content h2,
+  h3,
+  h4,
+  h5 {
+    font-size: 16px;
+    line-height: 19px;
+    padding: 20px 0 2px 0;
+  }
+
+  .office {
+    width: 300px;
+  }
+
+  /* stn media starts here */
+  .stn-media {
+    border-radius: 24px;
+    padding: 50px 17px 170px 35px;
+    margin-top: 20px;
+  }
+
+  .stn-media p {
+    font-size: 14px;
+  }
+
+  .media-box {
+    width: 32px;
+    height: 32px;
+  }
+
+  .stn-socials {
+    padding-top: 30px;
+  }
+}

@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.shiprate-head {
+  padding-top: 30px;
+  text-align: center;
+  color: #22222c;
+}
+
+.shiprate-head h1 {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  padding-bottom: 5px;
+}
+
+.shiprate-head p {
+  font-size: 8px;
+  font-weight: 300;
+  line-height: 11px;
+  padding-bottom: 10px;
+}
+
+/* ship rate content starts here */
+
+.shiprate-content {
+  border-radius: 10px;
+  background: #fdcac5;
+  text-align: left;
+  font-weight: 600;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+}
+
+th {
+  border: 2px solid #f87d24;
+  border-color: transparent #f87d24 #f87d24 transparent;
+  width: 100px;
+  text-align: center;
+  font-size: 12px;
+}
+
+td {
+  border: 2px solid #f87d24;
+  border-color: transparent #f87d24 transparent transparent;
+  font-size: 8px;
+  padding-left: 10px;
+}
+
+.row {
+  border-color: transparent;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.areaLine {
+  padding-right: 40px;
+  padding-bottom: 3px;
+}
+
+.priceLine {
+  border-color: transparent transparent #f87d24 #f87d24;
+  padding-left: 40px;
+  padding-bottom: 3px;
+}
+
+.td-align1 {
+  padding-right: 15px;
+}
+
+.td-align2 {
+  padding-right: 16.7px;
+}
+
+.first-tr {
+  padding-top: 5px;
+}
+
+/* ship rate ends here */
+
+/* last content starts here */
+.last-stn {
+  padding: 10px 0 10px;
+  line-height: 11px;
+  font-size: 8px;
+  font-weight: 600;
+  color: #7d7c7b;
+}
+
+@media only screen and (min-width: 500px) {
+  .container {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .container {
+    width: 800px;
+  }
+
+  .shiprate-head h1 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+  }
+
+  .shiprate-head p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 36px;
+    padding-bottom: 13px;
+  }
+
+  th {
+    border: 5px solid #f87d24;
+    border-color: transparent #f87d24 #f87d24 transparent;
+    width: 300px;
+    font-size: 20px;
+  }
+
+  .areaLine {
+    padding-bottom: 10px;
+  }
+
+  td {
+    border: 5px solid #f87d24;
+    border-color: transparent #f87d24 transparent transparent;
+    font-size: 10px;
+    padding-left: 40px;
+  }
+
+  .row {
+    padding-right: 40px;
+  }
+
+  .last-stn {
+    padding: 20px 0 10px;
+    font-size: 10px;
+  }
+
+  .td-align1 {
+    padding-right: 46px;
+  }
+
+  .td-align2 {
+    padding-right: 47px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+
+  .shiprate-head h1 {
+    font-size: 36px;
+    line-height: 49px;
+  }
+
+  .shiprate-head p {
+    font-size: 18px;
+    line-height: 49px;
+  }
+
+  th {
+    border: 10px solid #f87d24;
+    border-color: transparent #f87d24 #f87d24 transparent;
+    width: 350px;
+    font-size: 36px;
+  }
+
+  td {
+    border: 10px solid #f87d24;
+    border-color: transparent #f87d24 transparent transparent;
+    font-size: 18px;
+    padding-left: 40px;
+    font-weight: 700;
+  }
+
+  .row {
+    padding-right: 100px;
+  }
+
+  .last-stn {
+    padding: 20px 0 10px;
+    font-size: 18px;
+  }
+
+  .td-align1 {
+    padding-right: 110px;
+  }
+
+  .td-align2 {
+    padding-right: 115px;
+  }
+
+  .first-tr {
+    padding-top: 10px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .container {
+    width: 1200px;
+  }
+}
