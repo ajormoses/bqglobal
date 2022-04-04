@@ -393,6 +393,167 @@ img {
   justify-content: space-between;
 }
 
+/* fifth stn design starts here */
+.acheivement h5 {
+  font-size: 12px;
+  color: #fc0f1d;
+  font-family: "Nunito Sans", sans-serif;
+  letter-spacing: 2%;
+  line-height: 16.37px;
+}
+
+.acheivement {
+  padding-bottom: 50px;
+}
+
+.utensil-wash {
+  position: relative;
+  padding-bottom: 200px;
+}
+
+.utensil-one,
+.utensil-two {
+  position: absolute;
+}
+
+.utensil-one {
+  top: -3px;
+  left: 3px;
+  z-index: 1;
+}
+
+.utensil-one img {
+  height: 180px;
+  width: 162.52px;
+}
+
+.utensil-two {
+  top: 70px;
+  left: 20px;
+  transform: rotate(15deg);
+}
+
+.utensil-two img {
+  height: 100px;
+  width: 150px;
+}
+
+.synergy {
+  background: #ffffff;
+  border: 1px dashed rgba(52, 162, 90, 0.07);
+  box-sizing: border-box;
+  box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.12);
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  color: #fc0f1d;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  position: absolute;
+  top: 0;
+}
+
+.synergy img {
+  width: 11px;
+  height: 11px;
+}
+
+.synergy p {
+  font-size: 4px;
+  font-weight: 400;
+  color: #f87d24;
+}
+
+.synergy h5 {
+  font-size: 10px;
+}
+
+.writeupText {
+  background: #f87d24;
+  border-radius: 8px;
+  padding: 20px 10px 20px 10px;
+  font-size: 8px;
+  width: 150px;
+  height: 180px;
+  color: #ffffff;
+}
+
+.write-up p {
+  line-height: 11px;
+}
+
+.fifth-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.write-up {
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.brilliance {
+  background: #ffffff;
+  border: 1px dashed rgba(52, 162, 90, 0.07);
+  box-sizing: border-box;
+  box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.12);
+  height: 47px;
+  width: 47px;
+  border-radius: 50%;
+  color: #fc0f1d;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  position: absolute;
+  top: 15px;
+}
+
+.brilliance img {
+  width: 11px;
+  height: 11px;
+}
+
+.brilliance p {
+  font-size: 4px;
+  font-weight: 400;
+  color: #f87d24;
+}
+
+.brillance h5 {
+  font-size: 10px;
+}
+
+.quality {
+  background: #ffffff;
+  border: 1px dashed rgba(52, 162, 90, 0.07);
+  box-sizing: border-box;
+  box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.12);
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  color: #fc0f1d;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  position: absolute;
+  bottom: 25px;
+  right: 11px;
+}
+
+.quality img {
+  width: 11px;
+  height: 11px;
+}
+
+.quality p {
+  font-size: 4px;
+  font-weight: 400;
+  color: #f87d24;
+}
+
+.quality h5 {
+  font-size: 10px;
+}
+
 @media only screen and (min-width: 500px) {
   .container {
     width: 400px;
@@ -706,6 +867,134 @@ img {
     display: flex;
     justify-content: space-between;
   }
+
+  /* fifth stn design starts here */
+  .acheivement h5 {
+    font-size: 16px;
+    color: #131214;
+    text-align: right;
+    padding-right: 225px;
+  }
+
+  .acheivement {
+    padding-bottom: 10px;
+  }
+
+  .utensil-one {
+    top: -3px;
+    left: 50px;
+  }
+
+  .utensil-one img {
+    height: 280px;
+    width: 262.52px;
+  }
+
+  .utensil-two {
+    top: 70px;
+    left: 70px;
+  }
+
+  .utensil-two img {
+    height: 200px;
+    width: 250px;
+  }
+
+  .synergy {
+    height: 80px;
+    width: 80px;
+  }
+
+  .synergy img {
+    width: 25px;
+    height: 20px;
+  }
+
+  .synergy p {
+    font-size: 8px;
+  }
+
+  .synergy h5 {
+    font-size: 20px;
+  }
+
+  .synergy .contract {
+    padding-top: 10px;
+  }
+
+  .writeupText {
+    background: #f87d24;
+    border-radius: 20px;
+    padding: 40px 20px 40px 20px;
+    font-size: 10px;
+    width: 350px;
+    height: 250px;
+  }
+
+  .write-up p {
+    line-height: 20px;
+  }
+
+  .fifth-wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .write-up {
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+
+  .brilliance {
+    height: 80px;
+    width: 80px;
+  }
+
+  .brilliance img {
+    width: 25px;
+    height: 20px;
+  }
+
+  .brilliance p {
+    font-size: 8px;
+  }
+
+  .brilliance h5 {
+    font-size: 20px;
+  }
+
+  .brilliance .contract {
+    padding-top: 5px;
+  }
+
+  .quality {
+    border: 2px dashed #fbb20a;
+    height: 130px;
+    width: 130px;
+    bottom: -20px;
+    right: 0px;
+  }
+
+  .quality img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .quality p {
+    font-size: 7px;
+    font-weight: 400;
+    color: #f87d24;
+  }
+
+  .quality h5 {
+    font-size: 25px;
+  }
+
+  .quality .contract {
+    padding-top: 5px;
+    padding-left: 15px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -942,9 +1231,135 @@ img {
     padding-top: 20px;
   }
 
-  .values-icon {
+  /* fifth stn design starts here */
+  .fifth-stn {
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+  .acheivement h5 {
+    font-size: 36px;
+    text-align: right;
+    padding-right: 170px;
+  }
+
+  .acheivement {
+    padding-bottom: 20px;
+  }
+
+  .utensil-one {
+    top: -3px;
+    left: 50px;
+  }
+
+  .utensil-one img {
+    height: 473px;
+    width: 442px;
+  }
+
+  .utensil-two {
+    top: 180px;
+    left: 80px;
+  }
+
+  .utensil-two img {
+    height: 284.92px;
+    width: 341.36px;
+  }
+
+  .synergy {
+    height: 128px;
+    width: 123px;
+  }
+
+  .synergy img {
+    width: 46px;
+    height: 34px;
+  }
+
+  .synergy p {
+    font-size: 10px;
+  }
+
+  .synergy h5 {
+    font-size: 38px;
+  }
+
+  .synergy .contract {
+    padding-top: 10px;
+  }
+
+  .writeupText {
+    background: #f87d24;
+    border-radius: 20px;
+    padding: 100px 30px 60px 30px;
+    font-size: 15px;
+    width: 450px;
+    height: 450px;
+  }
+
+  .write-up p {
+    line-height: 25px;
+  }
+
+  .fifth-wrap {
     display: flex;
     justify-content: space-between;
+  }
+
+  .write-up {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+
+  .brilliance {
+    height: 128px;
+    width: 123px;
+    top: 55px;
+  }
+
+  .brilliance img {
+    width: 46px;
+    height: 34px;
+  }
+
+  .brilliance p {
+    font-size: 10px;
+  }
+
+  .brilliance h5 {
+    font-size: 38px;
+  }
+
+  .brilliance .contract {
+    padding-top: 5px;
+  }
+
+  .quality {
+    height: 208.24px;
+    width: 198px;
+    bottom: -60px;
+    right: 0px;
+  }
+
+  .quality img {
+    width: 47.76px;
+    height: 50.23px;
+  }
+
+  .quality p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #f87d24;
+  }
+
+  .quality h5 {
+    font-size: 38px;
+  }
+
+  .quality .contract {
+    padding-top: 10px;
+    padding-left: 20px;
   }
 }
 
